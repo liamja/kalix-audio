@@ -35,10 +35,10 @@
 // $total-columns: 12;
 
 // We use these to control various global styles
-// $body-bg: #fff;
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $body-font-weight: normal;
+$body-bg: rgb(246, 246, 246);
+$body-font-color: rgb(3, 22, 52);
+$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-weight: 300;
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -50,12 +50,12 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
-// $alert-color: #f04124;
+$primary-color: rgb(0, 160, 176);
+$secondary-color: rgb(0, 160, 176);
+$alert-color: rgb(204, 51, 63);
 // $success-color: #43AC6A;
-// $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+$warning-color: rgb(235, 104, 65);
+$info-color: rgb(237, 201, 81);
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;

@@ -1,2 +1,16 @@
 @import "settings";
 @import "foundation";
+
+.hero-unit
+{
+	background: url(../img/guitar.jpg) no-repeat scroll center bottom / cover transparent;
+	padding: rem-calc(100) 0;
+	margin-bottom: rem-calc(20);
+	h1
+	{
+		color: $body-bg;
+		font-size: rem-calc(100);
+		font-weight: 400;
+		letter-spacing: rem-calc(-6);
+	}
+}
