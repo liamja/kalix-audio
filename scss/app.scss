@@ -3,14 +3,14 @@
 
 .hero-unit
 {
-  background: url(../img/guitar.jpg) no-repeat scroll center bottom / cover transparent;
-  padding: rem-calc(100) 0;
+  background: url(../img/guitar.jpg) no-repeat fixed center / cover;
+  padding: rem-calc(40) 0;
   margin-bottom: rem-calc(20);
   h1
   {
     color: $body-bg;
     font-size: rem-calc(100);
     font-weight: 400;
-    letter-spacing: rem-calc(-6);
+    letter-spacing: rem-calc(-9);
   }
 }
