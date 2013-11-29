@@ -10,6 +10,11 @@
   {
     color: $body-bg;
     font-size: rem-calc(100);
+    @media #{$small-only}
+    {
+      font-size: rem-calc(50);
+      letter-spacing: rem-calc(-5);
+    }
     font-weight: 400;
     letter-spacing: rem-calc(-9);
   }
